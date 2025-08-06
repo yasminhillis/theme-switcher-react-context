@@ -4,11 +4,14 @@ body {
   margin: 0;
 }
 
+header {
+  font-size: 0.8rem;
+  padding: 18px;
+}
+
 header.light-theme {
   background-color: #E0F2FE;
-  padding: 18px;
   color: #0C4A6E;
-  font-size: 0.8rem;
 }
 
 header.dark-theme {
@@ -26,9 +29,9 @@ header.dark-theme {
   color: #0C4A6E;
 }
 
-/* .container.dark-theme {
+.container.dark-theme {
   background-color: #0C4A6E;
-} */
+}
 
 button.light-theme {
   background-color: #F0F9FF;
