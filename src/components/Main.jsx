@@ -1,5 +1,9 @@
+import { ThemeContext } from "../App"
+import { useContext } from 'react';
+
 export default function Main(){
+    const {theme, toggleTheme} = useContext(ThemeContext);
     return (
-        <button className="light-theme dark-theme">Switch Theme</button>
+        <button onClick={toggleTheme} className={`${theme}-theme`}>Switch Theme</button>
     )
 }
