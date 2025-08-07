@@ -10,7 +10,7 @@ A simple React application demonstrating how to implement a light/dark theme swi
 - 🧩 Component-based structure
 
 ## 🗂️ Project Structure
-
+```
 theme-switcher-react-context/
 ├── src/
 │ ├── components/
@@ -23,6 +23,7 @@ theme-switcher-react-context/
 ├── package.json
 ├── vite.config.js
 └── README.md
+```
 
 ## 🧠 How It Works
 
@@ -32,7 +33,7 @@ theme-switcher-react-context/
 
 
 📦 Built With
-- React
+- React + React Context API
 - Vite
 - JavaScript (ES6+)
 
