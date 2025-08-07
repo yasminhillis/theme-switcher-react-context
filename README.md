@@ -30,28 +30,10 @@ theme-switcher-react-context/
 - **Header.jsx**: Uses context to apply theme to header.
 - **Main.jsx**: Provides a button to toggle the theme.
 
-## 🎨 Styling
-
-The theme is toggled by dynamically changing the CSS class:
-```js
-className={`${theme}-theme`}
-You can define the styles for .light-theme and .dark-theme in App.css.
-
-▶️ Getting Started
-1. Clone the Repo
-git clone https://github.com/your-username/theme-switcher-react-context.git
-cd theme-switcher-react-context
-2. Install Dependencies
-npm install
-3. Run the Dev Server
-npm run dev
-Then open http://localhost:5173/ in your browser.
 
 📦 Built With
 - React
-
 - Vite
-
 - JavaScript (ES6+)
 
 Made with ❤️ By: Yasmin Hillis
